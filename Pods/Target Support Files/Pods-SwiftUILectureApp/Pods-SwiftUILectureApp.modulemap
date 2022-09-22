@@ -1,0 +1,6 @@
+framework module Pods_SwiftUILectureApp {
+  umbrella header "Pods-SwiftUILectureApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
