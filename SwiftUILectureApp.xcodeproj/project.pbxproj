@@ -26,7 +26,6 @@
 		0406114F28F3282100221CF7 /* StackAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406114E28F3282100221CF7 /* StackAlignment.swift */; };
 		041E50DE28C7C34200392230 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E50DD28C7C34200392230 /* ButtonView.swift */; };
 		044A183028424F5A00450165 /* SwiftUILectureAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A182F28424F5A00450165 /* SwiftUILectureAppApp.swift */; };
-		044A183228424F5A00450165 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A183128424F5A00450165 /* ContentView.swift */; };
 		044A183428424F5C00450165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044A183328424F5C00450165 /* Assets.xcassets */; };
 		044A183728424F5C00450165 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044A183628424F5C00450165 /* Preview Assets.xcassets */; };
 		044A183E284251BC00450165 /* View+Mirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A183D284251BC00450165 /* View+Mirror.swift */; };
@@ -60,7 +59,6 @@
 		041E50DD28C7C34200392230 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		044A182C28424F5A00450165 /* SwiftUILectureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILectureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044A182F28424F5A00450165 /* SwiftUILectureAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILectureAppApp.swift; sourceTree = "<group>"; };
-		044A183128424F5A00450165 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		044A183328424F5C00450165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044A183628424F5C00450165 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		044A183D284251BC00450165 /* View+Mirror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Mirror.swift"; sourceTree = "<group>"; };
@@ -206,7 +204,6 @@
 				0406113828F2FF6500221CF7 /* Supporting Tools */,
 				040F352828CB9720008BD783 /* App */,
 				0406112328F2DF2100221CF7 /* Sources */,
-				044A183128424F5A00450165 /* ContentView.swift */,
 				044A183328424F5C00450165 /* Assets.xcassets */,
 				044A183528424F5C00450165 /* Preview Content */,
 			);
@@ -359,7 +356,6 @@
 				0406114428F3153600221CF7 /* BackgroundView.swift in Sources */,
 				0406112528F2DF3100221CF7 /* PathView.swift in Sources */,
 				041E50DE28C7C34200392230 /* ButtonView.swift in Sources */,
-				044A183228424F5A00450165 /* ContentView.swift in Sources */,
 				0406114F28F3282100221CF7 /* StackAlignment.swift in Sources */,
 				04FDF2FF28D84AB000D557BF /* View+debug.swift in Sources */,
 				0406114B28F3192A00221CF7 /* StackView.swift in Sources */,
