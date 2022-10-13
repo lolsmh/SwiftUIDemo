@@ -30,6 +30,7 @@
 		044A183428424F5C00450165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044A183328424F5C00450165 /* Assets.xcassets */; };
 		044A183728424F5C00450165 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044A183628424F5C00450165 /* Preview Assets.xcassets */; };
 		044A183E284251BC00450165 /* View+Mirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A183D284251BC00450165 /* View+Mirror.swift */; };
+		0489179D28F802F500DFAB3A /* CollapsableHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489179C28F802F500DFAB3A /* CollapsableHStack.swift */; };
 		04E4BA8D28F6C997001F1A20 /* AnchorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4BA8C28F6C997001F1A20 /* AnchorsView.swift */; };
 		04E4BAA728F743ED001F1A20 /* RotationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4BAA628F743ED001F1A20 /* RotationModifier.swift */; };
 		04F5236C28DC45B20022B55F /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5236B28DC45B20022B55F /* ZoomableScrollView.swift */; };
@@ -63,6 +64,7 @@
 		044A183328424F5C00450165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044A183628424F5C00450165 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		044A183D284251BC00450165 /* View+Mirror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Mirror.swift"; sourceTree = "<group>"; };
+		0489179C28F802F500DFAB3A /* CollapsableHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableHStack.swift; sourceTree = "<group>"; };
 		04E4BA8C28F6C997001F1A20 /* AnchorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorsView.swift; sourceTree = "<group>"; };
 		04E4BAA628F743ED001F1A20 /* RotationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationModifier.swift; sourceTree = "<group>"; };
 		04F5236B28DC45B20022B55F /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				0406112628F2EA4A00221CF7 /* Shapes */,
 				0406112B28F2EAEB00221CF7 /* ViewLayoutExamplesView.swift */,
 				041E50DD28C7C34200392230 /* ButtonView.swift */,
+				0489179C28F802F500DFAB3A /* CollapsableHStack.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				0406114628F3156F00221CF7 /* OverlayView.swift in Sources */,
 				0406114D28F324F800221CF7 /* LayoutPriorities.swift in Sources */,
 				0406112228F2A99B00221CF7 /* MeasureBehavior.swift in Sources */,
+				0489179D28F802F500DFAB3A /* CollapsableHStack.swift in Sources */,
 				044A183028424F5A00450165 /* SwiftUILectureAppApp.swift in Sources */,
 				0406113228F2F35200221CF7 /* FrameTextView.swift in Sources */,
 				0406114928F3172000221CF7 /* TextView.swift in Sources */,
