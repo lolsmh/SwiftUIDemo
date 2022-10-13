@@ -23,9 +23,8 @@ struct MirrorHierarchyView: ViewModifier {
 // Usage: take any view, and call `.mirror()` on it.
 extension View {
 	func mirror(collapsed: Bool = false, rules: [Rule] = []) -> some View {
-		NavigationSplitView {
+		NavigationView {
 			self
-		} detail: {
 			ZoomableScrollView {
 				MirrorView(
 					content: self,
@@ -34,7 +33,6 @@ extension View {
 			}
 			.navigationTitle("Иерархия")
 		}
-
 	}
 }
 

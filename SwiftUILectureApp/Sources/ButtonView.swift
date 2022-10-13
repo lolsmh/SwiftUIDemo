@@ -29,7 +29,7 @@ struct ButtonView: View {
 				Text("На кнопку не жомано")
 			}
 		}
-		.mirror()
+		.padding()
 	}
 }
 
