@@ -288,7 +288,10 @@ struct Block: View {
 			
 		}
 		.background(RoundedRectangle(cornerRadius: 8).foregroundColor(.gray))
-		.overlay(TouchBar().gesture(gesture))
+		.overlay(
+			TouchBar().gesture(gesture)
+				.offset(y: 24)
+		)
 		.overlay(Marker(algn: algn).opacity(0.5))
 	}
 }
