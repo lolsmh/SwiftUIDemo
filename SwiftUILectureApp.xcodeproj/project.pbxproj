@@ -31,6 +31,7 @@
 		044A183E284251BC00450165 /* View+Mirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A183D284251BC00450165 /* View+Mirror.swift */; };
 		0489179D28F802F500DFAB3A /* CollapsableHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489179C28F802F500DFAB3A /* CollapsableHStack.swift */; };
 		0489179F28F8049F00DFAB3A /* CollapsableHStackDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489179E28F8049F00DFAB3A /* CollapsableHStackDemoView.swift */; };
+		04C56DC32913A6ED006A9FA1 /* AlignmentGuidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C56DC22913A6ED006A9FA1 /* AlignmentGuidesView.swift */; };
 		04E4BA8D28F6C997001F1A20 /* AnchorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4BA8C28F6C997001F1A20 /* AnchorsView.swift */; };
 		04E4BAA728F743ED001F1A20 /* RotationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4BAA628F743ED001F1A20 /* RotationModifier.swift */; };
 		04F5236C28DC45B20022B55F /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5236B28DC45B20022B55F /* ZoomableScrollView.swift */; };
@@ -65,6 +66,7 @@
 		044A183D284251BC00450165 /* View+Mirror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Mirror.swift"; sourceTree = "<group>"; };
 		0489179C28F802F500DFAB3A /* CollapsableHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableHStack.swift; sourceTree = "<group>"; };
 		0489179E28F8049F00DFAB3A /* CollapsableHStackDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableHStackDemoView.swift; sourceTree = "<group>"; };
+		04C56DC22913A6ED006A9FA1 /* AlignmentGuidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuidesView.swift; sourceTree = "<group>"; };
 		04E4BA8C28F6C997001F1A20 /* AnchorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorsView.swift; sourceTree = "<group>"; };
 		04E4BAA628F743ED001F1A20 /* RotationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationModifier.swift; sourceTree = "<group>"; };
 		04F5236B28DC45B20022B55F /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				0406114C28F324F800221CF7 /* LayoutPriorities.swift */,
 				0406114E28F3282100221CF7 /* StackAlignment.swift */,
 				04E4BA8C28F6C997001F1A20 /* AnchorsView.swift */,
+				04C56DC22913A6ED006A9FA1 /* AlignmentGuidesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				0406113228F2F35200221CF7 /* FrameTextView.swift in Sources */,
 				0406114928F3172000221CF7 /* TextView.swift in Sources */,
 				0406113F28F30A5100221CF7 /* PaddingView.swift in Sources */,
+				04C56DC32913A6ED006A9FA1 /* AlignmentGuidesView.swift in Sources */,
 				0406112C28F2EAEB00221CF7 /* ViewLayoutExamplesView.swift in Sources */,
 				04FDF2FD28D848B900D557BF /* InstanceTracker.swift in Sources */,
 				0406112E28F2EC0B00221CF7 /* ImagesView.swift in Sources */,
@@ -508,7 +512,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILectureApp/Preview Content\"";
-				DEVELOPMENT_TEAM = Q942766435;
+				DEVELOPMENT_TEAM = LSKU6K4UN2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -522,7 +526,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ur-mama.SwiftLectureApp";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.cleverpumpkin.SwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
@@ -542,7 +546,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILectureApp/Preview Content\"";
-				DEVELOPMENT_TEAM = Q942766435;
+				DEVELOPMENT_TEAM = LSKU6K4UN2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -556,7 +560,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ur-mama.SwiftLectureApp";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.cleverpumpkin.SwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;

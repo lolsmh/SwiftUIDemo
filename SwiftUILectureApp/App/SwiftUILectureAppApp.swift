@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUILectureAppApp: App {
     var body: some Scene {
         WindowGroup {
-			ButtonView()
+			ViewLayoutExamplesView()
         }
     }
 }

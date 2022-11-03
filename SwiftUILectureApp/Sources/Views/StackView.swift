@@ -11,7 +11,9 @@ struct StackView: View {
 	var body: some View {
 		HStack {
 			Text("Hello, World")
-			Rectangle().fill(Color.blue).frame(minWidth: 200)
+			Rectangle()
+				.fill(Color.blue)
+				.frame(minWidth: 200)
 		}
 	}
 }
